@@ -12,10 +12,7 @@ on:
 
   
 
-on:
-  push:
-    branches:
-      - master
+
 
 jobs:
   build:
