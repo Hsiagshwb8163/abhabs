@@ -1,0 +1,13 @@
+# .github/workflows/heroku-deploy.yml
+jobs:
+  heroku-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Deploy to Heroku
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: "ec9b16e9-bba1-47a0-84d2-b23f3adaee6e"
+          heroku_app_name: "haiwveiwhbw71862"
+          heroku_email: "m71916n712@gmail.com"
